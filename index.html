@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- second set of fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Rafael's Portfolio</title>
+  </head>
+  <body>
+    <div class="main-box-container">
+      <div id="app" class="main-grid">
+
+<!-- first Vue component -->
+        <div class="side-nav">
+          <sidenav class="tab-lists"></sidenav>
+        </div>
+
+<!-- Second Vue component -->
+        <div class="my-section">
+          <my-section-head class="section-grid">
+          </my-section-head>
+
+
+          <div class="sections">
+            <router-view class="overflow-auto"></router-view>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://kit.fontawesome.com/fd9eeb7ca9.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</html>
