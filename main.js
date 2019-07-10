@@ -81,10 +81,7 @@ Vue.component('sidenav', {
         <i class="fa fa-project-diagram"></i>
         <router-link to="projects" class='routes'>Projects</router-link>
       </li>
-      <li>
-        <i class="fa fa-laptop-code"></i>
-        <router-link to="currently-learning" class='routes'>Currently Learning</router-link>
-      </li>
+
       <li>
         <i class="fas fa-burn"></i>
         <router-link to="goals" class='routes'>Goals</router-link>
