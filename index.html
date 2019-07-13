@@ -3,45 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <!-- second set of fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="/portfolio/css/styles.css">
-=======
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+
+    <script type="js/typed.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="https://kit.fontawesome.com/fd9eeb7ca9.js"></script>
+
+
     <link rel="stylesheet" href="css/styles.css">
->>>>>>> b9b13c2d530a0007c98ad6b94d1899affb4b4079
+
     <title>Rafael's Portfolio</title>
   </head>
   <body>
     <div class="main-box-container">
       <div id="app" class="main-grid">
 
-<!-- first Vue component -->
+        <!-- first Vue component -->
         <div class="side-nav">
           <sidenav class="tab-lists"></sidenav>
         </div>
 
-<!-- Second Vue component -->
-        <div class="my-section">
-          <my-section-head class="section-grid">
+        <!-- Second Vue component -->
+        <div class="info-panels">
+          <my-section-head class="name-contact">
           </my-section-head>
 
 
           <div class="sections">
+            <hr>
             <router-view class="overflow-auto"></router-view>
+            <hr>
           </div>
+          <!-- end of Vue -->
 
+          <div class="footer">
+            <a href="https://www.linkedin.com/in/rafaelcastellanos-welsh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rafawelsh" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:mrrafael1912@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            <a class="btn btn" href="rafael_resume.pdf" role="button" target="rafael_resume.pdf">Resume</a>
+          </div>
         </div>
 
       </div>
     </div>
-
+    <script type="text/javascript" src="main.js"></script>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-  <script src="https://kit.fontawesome.com/fd9eeb7ca9.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+
 </html>
