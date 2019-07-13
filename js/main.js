@@ -66,7 +66,7 @@ const goals = {template:
       <ul>
         <li>
           <h2>Running</h2>
-          <p>I discovered the joy of running at the beginning of this year. I finished a half marathon in late March and just recently started training for a full marathon. I will be running the Portland Marathon in October 6th!
+          <p>I discovered the joy of running at the beginning of this year. I finished a half marathon in late March and just recently started training for a full marathon. I will be running the Portland Marathon in October 6th!</p>
         </li>
         <li>
           <h2>Music</h2>
