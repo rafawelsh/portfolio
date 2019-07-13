@@ -37,7 +37,7 @@ const projects = {template:
           Python, and Django.</p>
         </div>
         <div class="visuals">
-          <img src="ambitious.gif">
+          <img src="img/ambitious.gif">
         </div>
       </li>
       <li>
@@ -50,7 +50,7 @@ const projects = {template:
           idea back to life.</p>
         </div>
         <div class="visuals">
-          <img src="conganas.gif">
+          <img src="img/conganas.gif">
         </div>
       </li>
     </ul>
