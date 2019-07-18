@@ -4,7 +4,6 @@ const about = {template:
     <div class="templates">
       <h1>About Me.</h1>
       <p>I have a BBA with a concentration in Marketing from Gonzaga University. I conducted digital marketing campaigns at the Unity Multicultural Education Center and more recently at KBOO radio station. Recently, I finished a coding bootcamp course from PDX Code Guild and received a certificate in Python Based Web Development.</p>
-      <p>My current objective is to find a position within software engineering to develop my skills. I am furthering my coding knowledge post bootcamp into other JavaScript libraries. I can pick up new information quickly and be efficient in it.</p>
 
       <p>I can work with</p>
         <div class="icons">
@@ -17,7 +16,7 @@ const about = {template:
           <i class="devicon-django-plain colored"></i>
         </div>
 
-        <p>As I recently graduated the bootcamp, I am actively looking for more opportunities to collaborate with others in new projects. My portfolio will reflect my growth in skills.</p>
+        <p>As I recently graduated from the bootcamp, I am actively looking for more opportunities to collaborate with others in new projects. My portfolio will reflect my growth in skills.</p>
 
       </div>
     </div>
@@ -32,7 +31,7 @@ const projects = {template:
         <div class="description">
           <p>AmbitioUs is my capstone project from the PDX Code Guild bootcamp. The
           app is a platform where users can design a long-term goal with subsequent milestones to ensure a gradual progression towards the goal. The app is still under development and I will continue to work on it as I progress in my skills.</p>
-          <p>AmbitioUs was built using Django and REST APIs. The templates are using a combination of Django and Vue, for reactivity.</p>
+          <p>AmbitioUs was built using Django and REST APIs, Vue.</p>
         </div>
         <div class="visuals">
           <img src="img/ambitious.gif">
