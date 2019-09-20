@@ -29,8 +29,8 @@ const projects = {template:
     <ul>
       <li>
         <div class="description">
-          <p><a href="https://silly-raman-e5ef56.netlify.com">Beat Maker</a> is a simple project that connects keyboard events with noises. This was an exercise to start conceptualizing DOM manipulation with sound inputs</p>
-          <p>I deployed the app with Netlify. I want to add more instruments to the app.
+          <p><a href="https://silly-raman-e5ef56.netlify.com">Beat Maker</a> is a simple project that connects keyboard events with noises. This was an exercise to start conceptualizing DOM manipulation with sound inputs.</p>
+          <p>I deployed the app with Netlify. I want to add more instruments to the app.</p>
         </div>
         <div class = "visuals" >
           <img src="img/beatmaker.png">
