@@ -41,7 +41,7 @@ const projects = {template:
 
       <li>
         <div class="description">
-          <p>AmbitioUs is my capstone project from the PDX Code Guild bootcamp. The
+          <p><a href="https://rafawelsh.pythonanywhere.com/">AmbitioUs</a> is my capstone project from the PDX Code Guild bootcamp. The
           app is a platform where users can design a long-term goal with subsequent milestones to ensure a gradual progression towards the goal. The app is still under development and I will continue to work on it as I progress in my skills.</p>
           <p>AmbitioUs was built using Django and REST APIs, Vue.</p>
         </div>
