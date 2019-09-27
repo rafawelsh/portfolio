@@ -29,7 +29,20 @@ const projects = {template:
     <ul>
       <li>
         <div class="description">
-          <p><a href="https://silly-raman-e5ef56.netlify.com">Beat Maker</a> is a simple project that connects keyboard events with noises. This was an exercise to start conceptualizing DOM manipulation with sound inputs.</p>
+          <p><a href="https://rafawelsh.github.io/pigGame/">Pig Game</a> This game was a practice on interacting between DOM elements and 
+              structuring code in a more sophisticated manner. The game logic is simple but the sleek and modern design is appealing to me.</p>
+          <p>This game was deployed with GitHub pages. Currently in version 1 but might not be updated.</p>
+        </div>
+        <div class = "visuals" >
+          <img src="img/pig-game.png">
+        </div>
+      </li>
+
+        <hr>
+      <li>
+        <div class="description">
+          <p><a href="https://silly-raman-e5ef56.netlify.com">Beat Maker</a> is a simple project that connects keyboard events with noises. 
+              This was an exercise to start conceptualizing DOM manipulation with sound inputs.</p>
           <p>I deployed the app with Netlify. I want to add more instruments to the app.</p>
         </div>
         <div class = "visuals" >
@@ -42,7 +55,8 @@ const projects = {template:
       <li>
         <div class="description">
           <p><a href="https://rafawelsh.pythonanywhere.com/">AmbitioUs</a> is my capstone project from the PDX Code Guild bootcamp. The
-          app is a platform where users can design a long-term goal with subsequent milestones to ensure a gradual progression towards the goal. The app is still under development and I will continue to work on it as I progress in my skills.</p>
+          app is a platform where users can design a long-term goal with subsequent milestones to ensure a gradual progression towards the goal. 
+              The app is still under development and I will continue to work on it as I progress in my skills.</p>
           <p>AmbitioUs was built using Django and REST APIs, Vue.</p>
         </div>
         <div class="visuals">
@@ -54,7 +68,8 @@ const projects = {template:
 
       <li>
         <div class="description">
-          <p>Con Ganas is a clothing line that I started while in an entrepenuership class at Gonzaga. It represents the pride I have as a Latino man and the pride Latinx people showcase on a daily basis.</p>
+          <p>Con Ganas is a clothing line that I started while in an entrepenuership class at Gonzaga. It represents the pride I have as a Latino 
+              man and the pride Latinx people showcase on a daily basis.</p>
           <p>Con Ganas means “to do something full heartedly”.</p>
           <p>The website is currently unavailable but I do plan on bringing this
           idea back to life.</p>
@@ -76,11 +91,13 @@ const goals = {template:
       <ul>
       <li>
         <h2>Coding</h2>
-        <p>I have continued my education post bootcamp focusing on becoming a confident full stack developer. I have studied Node, MongoDb, and VueRouter on my own. I am moving towards working on more projects with a VENM stack. I will also start to study React to become better verse in current JavaScript frameworks.</p>
+        <p>I have continued my education post bootcamp focusing on becoming a confident full stack developer. I have studied Node, MongoDb, 
+        and VueRouter on my own. I am moving towards working on more projects with a VENM stack. I will also start to study React to become better verse in current JavaScript frameworks.</p>
       </li>
         <li>
           <h2>Running</h2>
-          <p>I discovered the joy of running at the beginning of this year. I finished a half marathon in late March and just recently started training for a full marathon. I will be running the Portland Marathon in October 6th!</p>
+          <p>I discovered the joy of running at the beginning of this year. I finished a half marathon in late March and just recently started 
+          training for a full marathon. I will be running the Portland Marathon in October 6th!</p>
         </li>
         <li>
           <h2>Music</h2>
