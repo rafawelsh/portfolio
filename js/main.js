@@ -29,11 +29,11 @@ const projects = {template:
     <ul>
       <li>
         <div class="description">
-          <p>This <a href="https://dreamy-jennings-50e963.netlify.com>Budget App</a> was built as part of Jonas Schmedtmann's "The Complete JavaScript Course 2019". It taught me how to program with module patterns, build architectural programs, and how to implement IIFEs. The project helped me understand code on a bigger scale and how to structure it.</p>
+          <p>This <a href="https://dreamy-jennings-50e963.netlify.com">Budget App</a> was built as part of Jonas Schmedtmann's "The Complete JavaScript Course 2019". It taught me how to program with module patterns, build architectural programs, and how to implement IIFEs. The project helped me understand code on a bigger scale and how to structure it.</p>
           <p>This app was deployed with Netlify pages.</p>
         </div>
         <div class = "visuals" >
-          <img src="img/budget.png">
+          <img src="img/budgetapp.png">
         </div>
       </li>
 
