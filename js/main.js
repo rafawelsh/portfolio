@@ -29,9 +29,21 @@ const projects = {template:
     <ul>
       <li>
         <div class="description">
+          <p>This <a href="https://dreamy-jennings-50e963.netlify.com>Budget App</a> was built as part of Jonas Schmedtmann's "The Complete JavaScript Course 2019". It taught me how to program with module patterns, build architectural programs, and how to implement IIFEs. The project helped me understand code on a bigger scale and how to structure it.</p>
+          <p>This app was deployed with Netlify pages.</p>
+        </div>
+        <div class = "visuals" >
+          <img src="img/budget.png">
+        </div>
+      </li>
+
+      <hr>
+
+      <li>
+        <div class="description">
           <p><a href="https://rafawelsh.github.io/pigGame/">Pig Game</a> This game was a practice on interacting between DOM elements and 
               structuring code in a more sophisticated manner. The game logic is simple but the sleek and modern design is appealing to me.</p>
-          <p>This game was deployed with GitHub pages. Currently in version 1 but might not be updated.</p>
+          <p>This game was deployed with GitHub pages.</p>
         </div>
         <div class = "visuals" >
           <img src="img/pig-game.png">
